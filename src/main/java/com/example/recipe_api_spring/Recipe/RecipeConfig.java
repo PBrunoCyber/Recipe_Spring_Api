@@ -49,13 +49,13 @@ public class RecipeConfig {
                     "Lorem labore quis non eiusmod. Consectetur cupidatat enim fugiat esse. Excepteur proident laboris ipsum duis ipsum. Culpa consectetur elit quis sunt.");
             Recipe r10 = new Recipe("Creamy Avocado Dip with Tomato Salsa, Queso Fresco, and Homemade Taro Chips", 3.5,
                     "1 hr 55 min",
-                    "https://lh3.googleusercontent.com/3DJkh5fDAX2xKPoOuyOtctJFdQ5ksJynIx1cyH0ycqN-xCo1IIIgFRb54Ai3c2i5wqEozSW_s0nk51JDqelFtQ=s360",
+                    "https://lh3.googleusercontent.com/gukh_ZZ59mQYh-rUCzGOD_qyXnGC297BhMfLksGt0oPeCKYKfeVyics3GSrxZUINcsW9aTjpnERfAygyPmsucg=s360",
                     "Lorem labore quis non eiusmod. Consectetur cupidatat enim fugiat esse. Excepteur proident laboris ipsum duis ipsum. Culpa consectetur elit quis sunt.");
             Recipe r11 = new Recipe("Breakfast Skillet With Diced Red Potatoes", 4.5,
                     "30 min",
                     "https://lh3.googleusercontent.com/JdeIFjne3NZqWxHudUss18-d1z1zJdVlR1Cvgo3heQaUG9XrcPut1Pm43KW4kiqZ3xvyQYYm4B7s6i3jIhwuBwQ=s360",
                     "Ad et consequat cillum culpa incididunt tempor nostrud non. Cillum et proident pariatur laboris sunt dolore nostrud. Quis sint et nostrud sit.");
-            Recipe r12 = new Recipe("Sautéed Spinach with Garlic", 5.0,
+            Recipe r12 = new Recipe("Sauteed Spinach with Garlic", 5.0,
                     "7 min",
                     "https://lh3.googleusercontent.com/wfB__l-edWLoUiCkL137Rr9Eaqmc_dTjSKTbIbm2NDYcLRhXbiSVfqZWFAAQDHuFoRX-tjHREBbWQt60EOU1UhU=s360",
                     "Labore nisi irure quis excepteur ipsum proident incididunt pariatur elit duis labore. Culpa et ut deserunt ex. Aute elit officia ad labore commodo non adipisicing cillum eiusmod Lorem excepteur. Id et elit non ullamco sunt consectetur aute mollit magna velit labore et. Occaecat minim veniam id elit sit consectetur elit cillum proident. Excepteur adipisicing proident reprehenderit officia proident adipisicing non elit elit commodo labore. Dolor anim sunt elit est dolor proident labore aliqua voluptate dolor.");
