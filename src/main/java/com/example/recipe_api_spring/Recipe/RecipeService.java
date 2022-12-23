@@ -1,6 +1,5 @@
 package com.example.recipe_api_spring.Recipe;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,25 +20,16 @@ public class RecipeService {
         return recipeRepository.findAll();
     }
 
-    public List<String> emptyFieldsVerify(Recipe recipe) {
-        List<String> erros = new ArrayList<>();
-        if (recipe.getName().isEmpty())
-            erros.add("The field name is required");
-        if (recipe.getImage().isEmpty())
-            erros.add("The field image is required");
-        if (recipe.getDescription().isEmpty())
-            erros.add("The field description is required");
-        if (String.valueOf(recipe.getRating()).isEmpty())
-            erros.add("The field rating is required");
-        if (recipe.getTotalTime().isEmpty())
-            erros.add("The field total time is required");
-        return erros;
-    }
 
     public void addNewRecipe(Recipe recipe) {
-        String error = String.join(", ", emptyFieldsVerify(recipe));
-        if (!error.isEmpty())
-            throw new IllegalStateException(error);
+        if (recipe.getName().isEmpty() || 
+            recipe.getDescription().isEmpty() || 
+            recipe.getImage().isEmpty() ||
+            recipe.getName().isEmpty() || 
+            recipe.getRating() == 0 || 
+            recipe.getTotalTime().isEmpty()
+        )
+            throw new IllegalStateException("Há campo(s) vazio(s), verifique e tente novamente!");
         recipeRepository.save(recipe);
     }
 

@@ -12,7 +12,7 @@ public class RecipeConfig {
     CommandLineRunner commandLineRunner(RecipeRepository recipeRepository) {
         return args -> {
 
-            Recipe r1 = new Recipe("Chicken Wings with Dipping Sauces", 3.5, "05h:00 min",
+            Recipe r1 = new Recipe("Chicken Wings with Dipping Sauces", 3.5, "05 h 00 min",
                     "https://lh3.googleusercontent.com/P_eAWJOey-MMLb9kJHnfC3_KXNioNxQ9fCbPkzUiiuwGAdIgBOQAIORF_nKg8PRDwn3ukiTqBFhKlsuqC98-=s360",
                     "Use a classic French technique to make melt-in-the-mouth confit chicken wings, served with a trio of uniquely-flavored (but quick and easy) sauces, including Richard's signature 'sri-rancha.' Be sure to set aside plenty of time for brining and cooking these flavor-packed wings!");
             Recipe r2 = new Recipe("Creamy Avocado Dip with Tomato Salsa, Queso Fresco, and Homemade Taro Chips", 4.5,
